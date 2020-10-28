@@ -1,7 +1,8 @@
 package com.example.helloandroidworld
 /* Name: Cole Sarno
  * Class: CMSY-168-N090 Mobile Design
- * Date: 10/09/2020
+ *  Description: Your First Git Repository
+ *  Date: 10/27/2020
  */
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
