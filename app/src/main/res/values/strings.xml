@@ -1,0 +1,10 @@
+<!--Name: Cole Sarno
+        Class: CMSY-168-N090 Mobile Design
+        Date: 10/09/2020
+ -->
+<resources>
+    <!-- Sets the strings for app_name, submit_button, and enter_name-->
+    <string name="app_name">Hello, Android World!</string>
+    <string name="submit_button">Submit</string>
+    <string name="enter_name">Enter your name here</string>
+</resources>

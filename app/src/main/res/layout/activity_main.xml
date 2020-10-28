@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Name: Cole Sarno
+        Class: CMSY-168-N090 Mobile Design
+        Date: 10/09/2020
+    -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Changed the width to fill the screen -->
+    <!-- Sets the text to app_name from the strings.xml file -->
+    <!-- Increased the textSize -->
+    <!-- Aligned the text to the center -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_height="56dp"
+        android:layout_width="400dp"
+        android:text="@string/app_name"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <!-- Sets the text to enter_name from the strings.xml file -->
+    <!-- Aligned the text to the center -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:hint="@string/enter_name"
+        android:padding="4dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <!-- Sets the text to submit_button from the strings.xml file -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
